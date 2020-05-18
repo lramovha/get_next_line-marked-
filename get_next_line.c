@@ -26,7 +26,8 @@ static int      ft_num_lines(int ret, int fd, char **str, char **line)
     {
         *line = ft_strsub(str[fd], 0, len);
         temp_hold = ft_strdup(str[fd] + (len + 1));
-        free(str[fd]) = temp_hold;
+        free(str[fd]);
+        str[fd] = temp_hold;
         if (str[fd][0] == '\0')
         {
             ft_strdel(&str[fd]);
