@@ -1,6 +1,10 @@
 # get_next_line-marked-
 WETHINKCODE get_next_line project created using some of the LibFt library. The aim of this project is to code a function that returns a line ending with a newline, read from a file descriptor. The project was done using C programming language
 
+# instructions
+![get_next_Line](https://github.com/user-attachments/assets/c43c76e5-8eab-42d5-aa0d-d9b1caa2b3ff)
+
+
 # Detailed Breakdown
 1.Reading from the file descriptor: The read system call is used to read from the file descriptor fd in chunks defined by BUFF_SIZE (in this case, 1 byte). Each chunk is appended to the str[fd], which holds the accumulated data for the file.
 
